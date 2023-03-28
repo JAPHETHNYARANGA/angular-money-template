@@ -23,3 +23,34 @@
 .top-section>.top-body>.container>.row>.col-md-6>.row{
     margin-top: 15%;
 }
+
+.transaction-section{
+    padding: 5rem 0;
+    background-color: #E2F2EF;
+}
+.transaction-section .header h4{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.transaction-section .header p{
+  color: grey;
+  font-size: 1rem;
+}
+.transaction-section>.header{
+    margin-bottom: 3rem;
+}
+
+.transaction-section .container .row .col-md-3 .card i{
+    font-size: 2rem;
+}
+
+.transaction-section .container .row .col-md-3 .card .card-body p{
+    color: gray;
+}
+
+
+
+.transaction-section .container .row .col-md-3 .card :hover{
+    cursor: pointer;
+   
+}
