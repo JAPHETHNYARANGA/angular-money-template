@@ -1,0 +1,25 @@
+.top-section .navbar ul{
+    display: flex;
+   
+}
+.top-section .navbar ul li{
+    margin: 0 0 0 1rem;
+    list-style-type:none;
+}
+.navbar{
+    padding-top: 2%;
+}
+
+.top-section{
+    background-color: black;
+    color: white;
+}
+
+.top-section>.top-body{
+    margin-top: 5rem;
+    padding-bottom: 4rem;
+}
+
+.top-section>.top-body>.container>.row>.col-md-6>.row{
+    margin-top: 15%;
+}
