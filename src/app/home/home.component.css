@@ -2,12 +2,25 @@
     display: flex;
    
 }
+.top-section .navbar .content{
+    display: flex;
+   
+}
+.top-section .navbar .content h4,
+.top-section .navbar .content ul{ 
+   margin-right: 2rem;
+   
+}
 .top-section .navbar ul li{
     margin: 0 0 0 1rem;
     list-style-type:none;
 }
 .navbar{
     padding-top: 2%;
+    color: white;
+}
+.top-section>.navbar>i{
+    display: none;
 }
 
 .top-section{
@@ -136,4 +149,15 @@
   .footer .container .row .col-md-3 .icon-container i{
     font-size: 1.5rem;
     margin-right: 3%;
+  }
+
+
+
+  @media only screen and (max-width: 770px) {
+    .top-section>.navbar>i{
+        display: block;
+    }
+    /* .top-section>.navbar>.content{
+        display: block ;
+    } */
   }
